@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS spendings;
+
+CREATE TABLE spendings (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    worker_name TEXT NOT NULL,
+    spending INTEGER DEFAULT 0
+);
