@@ -13,6 +13,6 @@
 2. After inputting all coffee orders for the current trip, click the "Submit Orders" button at the bottom of the page, and the program will decide who should pay for the entire coffee trip
 
 # Assumptions
-* The coworker who will pay is chosen using a weighted probability: if a coworker has spent more money on coffee, they are more likely to be chosen to pay for the entire coffee trip.
+* The coworker who will pay is chosen using a weighted probability: if a coworker has spent more money on coffee, they are more likely to be chosen to pay for the entire coffee trip. Over time, after many coffee trips, each coworker will end up paying an amount of money proportional to their spending due to the weighted probability.
 * A coworker's total spending on coffee is stored in a database "database.db," and the weighted probability uses the data stored in this database.
 * On a given coffee trip (each time the "Submit Orders" button is pressed), it is guaranteed that a coworker must be on this trip to be chosen to pay for all of the coffees.
